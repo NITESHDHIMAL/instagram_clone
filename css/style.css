@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;   
+}
+body{
+    font-family: "Poppins",sans-serif;
+}
+.gray{
+    color: gray;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:0.8em 1em;
+    border-bottom: 1px solid lightgray;
+    position: fixed;
+    background-color: whitesmoke;
+    width: 100%;
+}
+.navbar .logo img{
+    margin-left: 100px;
+}
+.navbar .search input{
+   padding:5px 10px 5px 10px;
+   background-color:#efeff5;
+   outline: none;
+   border: 1px solid lightgray;
+   margin-left: 100px;
+}
+ul{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    text-decoration: none;
+    align-items: center;
+}
+.nav_links ul{
+    margin-right: 100px;
+}
+.nav_links ul img{
+    border-radius: 50%;
+}
+ul li a{
+    color: black;
+    margin-left: 1.5em;  
+}
+/* navbar ends */
+
+.main_containter{
+    display: flex;   
+}
+
+/********************************** left_container starts */
+.left_container{
+    flex-basis: 60%;  
+    margin-top: 70px;
+}
+.post{
+    width: 550px;
+    margin: 25px 0 0 200px;
+    border: 1px solid lightgray;
+}
+.post .main_user{
+    padding: 20px 15px;
+}
+.post_descritpion{
+    padding: 5px;
+}
+.reaction{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px 10px 0px;
+}
+.comment{
+    margin: 25px 10px 25px 5px;
+}
+.comment,.comment .comment_box{
+    display: flex;
+    justify-content: space-between;
+}
+ 
+.comment_box i{
+    margin-right: 20px;
+}
+.comment_box input{
+    outline: none;
+    border: none;
+}
+
+/******************** right_container starts */
+.right_container{
+    flex-basis: 40%;
+    height: 80vh;
+    position: sticky;
+    margin-top: 100px;
+    z-index: -3000;
+    top:100px;
+}
+.main_user_container{
+    width: 350px;
+}
+.main_user{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0.8em;
+}
+.user_info{
+    display: flex;
+    align-items: center;
+    line-height: 1em;
+}
+.main_user .user_info img{
+   border-radius: 50%;
+   margin-right: 10px;
+}
+.main_user .user_info small{
+    color: gray;
+    font-weight: 200;
+    font-size: 0.7em;
+}
+.switch{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 0.8em;
+    font-weight: bold;
+}
+.switch p a{
+    text-decoration: none;
+    color: #33adff;
+}
+    /**************** main user ends */
+.suggest{
+    display: flex;
+    justify-content:space-between;
+    font-size: 0.8em;
+    margin: 1em 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
